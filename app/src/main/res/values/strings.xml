@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Resusable Components</string>
+    <string name="DROPDOWN_PROMPT">Please select type</string>
+    <string name="INTERNET_OFF_SNACKBAR">Internet not available</string>
+    <string name="INTERNET_OFF_TEXTVIEW">Internet not available, please turn it on and\nTap to refresh</string>
+    <string name="SPINNER_PROMPT">Please select option</string>
+    <string name="SPINNER_ITEM0">Please select option</string>
+    <string name="SPINNER_ITEM1">Feedback</string>
+    <string name="SPINNER_ITEM2">Issue</string>
+    <string name="SPINNER_ITEM3">Suggestion</string>
+    <string name="RATE_DIALOG_TITLE">Rate us</string>
+    <string name="RATE_DIALOG_MESSAGE">Would you like to rate us?</string>
+    <string name="SHARE_CHOOSER_TITLE">Share this app</string>
+    <string name="TOGGLE_TEXT">ગુજરાતી</string>
+    <string name="EDITTEXT_COMMENT_HINT">Leave your comment</string>
+    <string name="rating">Rating</string>
+    <string name="BTN_SUBMIT">Submit</string>
+    <string name="TXT_OR">or</string>
+    <string name="BTN_RATE_US">Rate Us</string>
+    <string name="BTN_SHARE_APP">Share this app</string>
+</resources>

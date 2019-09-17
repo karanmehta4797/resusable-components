@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Resusable Components</string>
+    <string name="DROPDOWN_PROMPT">કૃપા કરી પ્રકાર પસંદ કરો</string>
+    <string name="INTERNET_OFF_SNACKBAR">ઇન્ટરનેટ ઉપલબ્ધ નથી</string>
+    <string name="INTERNET_OFF_TEXTVIEW">ઇન્ટરનેટ ઉપલબ્ધ નથી, કૃપા કરીને તેને ચાલુ કરો અને તાજું કરવા માટે ટેપ કરો</string>
+    <string name="SPINNER_PROMPT">કૃપા કરી વિકલ્પ પસંદ કરો</string>
+    <string name="SPINNER_ITEM0">કૃપા કરી વિકલ્પ પસંદ કરો</string>
+    <string name="SPINNER_ITEM1">પ્રતિસાદ</string>
+    <string name="SPINNER_ITEM2">મુદ્દો</string>
+    <string name="SPINNER_ITEM3">સૂચન</string>
+    <string name="RATE_DIALOG_TITLE">અમને રેટ કરો</string>
+    <string name="RATE_DIALOG_MESSAGE">તમે અમને રેટ કરવા માંગો છો?</string>
+    <string name="SHARE_CHOOSER_TITLE">આ એપ્લિકેશન શેર કરો</string>
+    <string name="TOGGLE_TEXT">English</string>
+    <string name="EDITTEXT_COMMENT_HINT">તમારી ટિપ્પણી મૂકો</string>
+    <string name="rating">રેટિંગ</string>
+    <string name="BTN_SUBMIT">સબમિટ</string>
+    <string name="TXT_OR">અથવા</string>
+    <string name="BTN_RATE_US">રેટ કરો</string>
+    <string name="BTN_SHARE_APP">આ એપ્લિકેશન શેર કરો</string>
+</resources>

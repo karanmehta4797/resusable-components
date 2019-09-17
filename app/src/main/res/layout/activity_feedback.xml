@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayoutFeedback"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:padding="30dp"
+    tools:context=".FeedbackActivity">
+
+    <Spinner
+        android:id="@+id/spinner"
+        style="@android:style/Widget.Material.DropDownItem.Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/DROPDOWN_PROMPT"
+        android:spinnerMode="dialog"
+        tools:targetApi="lollipop" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner"
+        android:animateLayoutChanges="true"
+        app:boxStrokeColor="#32cd32"
+        app:boxStrokeWidth="1dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="250">
+
+        <EditText
+            android:id="@+id/txtComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/EDITTEXT_COMMENT_HINT"
+            android:inputType="textMultiLine"
+            android:lines="4"
+            android:maxLength="250" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:id="@+id/linearRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textInputLayout"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/txtRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/rating"
+            android:textSize="18dp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="?attr/ratingBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtComment"
+            android:layout_gravity="right"
+            android:layout_toRightOf="@id/txtRate"
+            android:numStars="5"
+            android:outlineProvider="paddedBounds"
+            android:outlineSpotShadowColor="@color/colorAccent"
+            android:stepSize="1" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearRating"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:elevation="50dp"
+        android:onClick="onClick"
+        android:text="@string/BTN_SUBMIT"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/txtOr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSubmit"
+        android:layout_centerHorizontal="true"
+        android:text="@string/TXT_OR"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/btnRateUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtOr"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:elevation="50dp"
+        android:onClick="onClick"
+        android:text="@string/BTN_RATE_US"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnShareThisApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRateUs"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:elevation="50dp"
+        android:onClick="onClick"
+        android:text="@string/BTN_SHARE_APP"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

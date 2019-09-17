@@ -10,8 +10,7 @@ import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.annotation.RequiresApi
 import com.example.helpers.utilities.NetworkHelper
-import com.example.resusablecomponents.utilities.WebViewHelper
-import com.example.selfinspection.utilities.PreferenceHelper
+import com.example.helpers.utilities.WebViewHelper
 import com.google.android.material.snackbar.Snackbar
 
 class WebViewActivity : AppCompatActivity() {

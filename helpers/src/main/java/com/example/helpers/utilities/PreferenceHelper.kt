@@ -1,4 +1,4 @@
-package com.example.selfinspection.utilities
+package com.example.helpers.utilities
 
 import android.content.Context
 import android.content.SharedPreferences

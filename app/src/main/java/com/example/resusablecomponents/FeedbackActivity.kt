@@ -8,8 +8,8 @@ import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.example.helpers.TestActivity
 import com.example.helpers.utilities.ConnectivityReceiver
-import com.example.resusablecomponents.utilities.RateAppHelper
-import com.example.resusablecomponents.utilities.ShareAppHelper
+import com.example.helpers.utilities.RateAppHelper
+import com.example.helpers.utilities.ShareAppHelper
 import com.google.android.material.snackbar.Snackbar
 
 class FeedbackActivity : AppCompatActivity(), View.OnClickListener,

@@ -1,4 +1,4 @@
-package com.example.resusablecomponents.utilities
+package com.example.helpers.utilities
 
 import android.view.View
 import android.webkit.WebResourceError

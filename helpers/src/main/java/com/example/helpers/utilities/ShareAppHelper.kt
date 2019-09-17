@@ -1,4 +1,4 @@
-package com.example.resusablecomponents.utilities
+package com.example.helpers.utilities
 
 import android.app.Activity
 import androidx.core.app.ShareCompat

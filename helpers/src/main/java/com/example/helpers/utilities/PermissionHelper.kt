@@ -52,6 +52,8 @@ open class PermissionHelper : AppCompatActivity() {
             } else {
                 if (callback != null) {
                     callback!!.onPermissionGranted()
+                } else {
+                    callback!!.onPermissionNotGranted()
                 }
             }
         }

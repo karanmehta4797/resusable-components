@@ -1,7 +1,6 @@
-package com.example.resusablecomponents
+package com.example.reusablecomponents
 
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.webkit.WebView
@@ -9,11 +8,12 @@ import android.widget.ProgressBar
 import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.annotation.RequiresApi
+import com.example.helpers.utilities.BluetoothHelper
 import com.example.helpers.utilities.NetworkHelper
 import com.example.helpers.utilities.WebViewHelper
 import com.google.android.material.snackbar.Snackbar
 
-class WebViewActivity : AppCompatActivity() {
+class WebViewActivity : BluetoothHelper() {
 
     private lateinit var txtError: TextView
     private lateinit var relativeLayout: RelativeLayout
@@ -62,6 +62,6 @@ class WebViewActivity : AppCompatActivity() {
 
     private fun restartActivity() {
         finish()
-        startActivity(getIntent())
+        startActivity(intent)
     }
 }

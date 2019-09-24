@@ -1,4 +1,4 @@
-package com.example.resusablecomponents
+package com.example.reusablecomponents
 
 import android.content.Intent
 import android.os.Bundle
@@ -112,6 +112,6 @@ class FeedbackActivity : AppCompatActivity(), View.OnClickListener,
 
     private fun restartActivity() {
         finish()
-        startActivity(getIntent())
+        startActivity(intent)
     }
 }
